@@ -1,0 +1,91 @@
+{
+    "errors": {
+      "database": {
+        "connection_failed": {
+          "code": "DB_CONN_FAILED",
+          "number": 1001,
+          "message": "Nie udało się połączyć z bazą danych.",
+          "resolution": "Sprawdź konfigurację bazy danych i spróbuj ponownie."
+        },
+        "query_failed": {
+          "code": "DB_QUERY_FAILED",
+          "number": 1002,
+          "message": "Błąd podczas wykonywania zapytania do bazy danych.",
+          "resolution": "Sprawdź zapytanie SQL i spróbuj ponownie."
+        },
+        "user_not_found": {
+          "code": "DB_USER_NOT_FOUND",
+          "number": 1003,
+          "message": "Użytkownik nie został znaleziony w bazie danych.",
+          "resolution": "Upewnij się, że wprowadziłeś poprawne ID Discord lub nazwę użytkownika Roblox."
+        }
+      },
+      "api": {
+        "discord_connection_failed": {
+          "code": "API_DISCORD_CONN_FAILED",
+          "number": 2001,
+          "message": "Nie udało się połączyć z API Discord.",
+          "resolution": "Sprawdź połączenie internetowe i API Discord."
+        },
+        "rate_limited": {
+          "code": "API_RATE_LIMITED",
+          "number": 2003,
+          "message": "Przekroczono limit zapytań do API.",
+          "resolution": "Odczekaj chwilę przed ponowną próbą."
+        }
+      },
+      "discord": {
+        "missing_permissions": {
+          "code": "DISCORD_MISSING_PERMISSIONS",
+          "number": 3001,
+          "message": "Brak wymaganych uprawnień do wykonania tej komendy.",
+          "resolution": "Upewnij się, że bot ma odpowiednie uprawnienia."
+        },
+        "command_failed": {
+          "code": "DISCORD_COMMAND_FAILED",
+          "number": 3002,
+          "message": "Wykonanie komendy nie powiodło się.",
+          "resolution": "Spróbuj ponownie lub skontaktuj się z administratorem bota."
+        },
+        "interaction_failed": {
+          "code": "DISCORD_INTERACTION_FAILED",
+          "number": 3003,
+          "message": "Nie udało się przeprowadzić interakcji z użytkownikiem.",
+          "resolution": "Sprawdź połączenie z serwerem Discord i spróbuj ponownie."
+        },
+        "interaction_timeout": {
+          "code": "DISCORD_INTERACTION_TIMEOUT",
+          "number": 3004,
+          "message": "Przekroczono limit czasu na interakcję.",
+          "resolution": "Spróbuj ponownie później lub skontaktuj się z administratorem bota."
+        },
+        "interaction_already_responded": {
+          "code": "DISCORD_INTERACTION_ALREADY_RESPONDED",
+          "number": 3005,
+          "message": "Interakcja została już odpowiedziana.",
+          "resolution": "Nie można ponownie odpowiedzieć na tę interakcję."
+        },
+        "invalid_interaction_response": {
+          "code": "DISCORD_INVALID_INTERACTION_RESPONSE",
+          "number": 3006,
+          "message": "Nieprawidłowa odpowiedź na interakcję.",
+          "resolution": "Sprawdź poprawność odpowiedzi na interakcję i spróbuj ponownie."
+        }
+      },
+      "internal": {
+        "unexpected_error": {
+          "code": "INTERNAL_UNEXPECTED_ERROR",
+          "number": 4001,
+          "message": "Wystąpił nieoczekiwany błąd.",
+          "resolution": "Spróbuj ponownie później lub skontaktuj się z wsparciem technicznym."
+        },
+        "configuration_error": {
+          "code": "INTERNAL_CONFIGURATION_ERROR",
+          "number": 4002,
+          "message": "Błąd konfiguracji systemu.",
+          "resolution": "Sprawdź konfigurację systemu i spróbuj ponownie."
+        }
+      }
+    }
+  }
+  

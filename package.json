@@ -1,0 +1,25 @@
+{
+  "name": "discord_sob_system",
+  "version": "1.4.0",
+  "description": "Paczka z lista errorow dla polisk botw",
+  "main": "./src/index.js",
+  "scripts": {
+    "edit": "node ./src/editError.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivio2115/erros.git"
+  },
+  "keywords": [
+    "Bot",
+    "Discord",
+    "Error",
+    "Funny"
+  ],
+  "author": "zelikantek@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivio2115/erros/issues"
+  },
+  "homepage": "https://github.com/vivio2115/erros#readme"
+}
